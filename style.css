@@ -1,0 +1,182 @@
+.logo {
+    height: 70px;
+    margin: 10px;
+  }
+
+#tree{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top:20vh;
+    font-size: 6vw;
+    color: white;
+}
+#search{
+    width: 50vw;
+    margin: auto;
+    
+}
+#auto{
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
+header{
+     
+    overflow: hidden;
+}
+ 
+#top-header{
+         
+    text-align: left;
+    height: 60px;
+}
+ 
+ 
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: 20 20 0 0;
+    background: transparent;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    padding-right: 70px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{
+         
+    color: rgb(225, 229, 226);
+}
+     
+#menu li:hover a, #menu li span{
+    background: transparent;
+    color: #d90e00;
+    border-left: 0px solid #0074D9;
+    text-decoration-color: yellow;
+}
+@media only screen and (max-width: 600px) {
+    #tree{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin-top:20vh;
+        font-size: 10vw;
+        color: white;
+    }
+    #auto{
+        text-align: center;
+        font-size: 4vw;
+        color: white;
+    }
+    #search{
+        width: 80vw;
+        margin: auto;
+
+    }
+
+}
+#main{
+    border: 1px solid;
+    height: 100vh;
+    background-image: url("img/main.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#m_main{
+  
+    height: 60vh;
+    background-image: url("img/medical.png");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fr_main{
+  
+    height: 60vh;
+    background-image: url("img/fruit1.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fl_main{
+  
+    height: 60vh;
+    background-image: url("img/flower.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#v_main{
+  
+    height: 60vh;
+    background-image: url("img/veggarden1.jpg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#w_main{
+  
+    height: 60vh;
+    background-image: url("img/wild.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#categories{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    /* border: 1px solid red; */
+}
+.imgCate{
+   width: 25vw; 
+   height:40vh;
+}
+@media only screen and (max-width: 735px) {
+    .imgCate{
+        width: 79.8vw; 
+        height:40vh;
+     }
+}
+#footer{
+    background-color: rgb(168, 198, 168);
+    text-align: center;
+    padding: 10px;
+}
+#name{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    font-size:5vw; 
+    padding: 20vh; 
+    color: white;
+}
+@media only screen and (max-width: 735px) {
+    #name{
+        padding-top:20vh;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        text-align: center;
+        font-size:10vw; 
+        color: white;
+    }
+}
